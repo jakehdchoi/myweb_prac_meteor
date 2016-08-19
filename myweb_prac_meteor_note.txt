@@ -13,3 +13,12 @@ $ meteor add underscore
 - main.*의 이름을 가진 파일들은 그 밖의 다른 모든 파일들 보다 나중에 로드된다.
 - 그 밖의 모든 파일들은 파일명의 알파벳 순으로 로드된다.
 
+
+우리는 “아무 기능도 없는” HTML/JavaScript 파일의 외형을 먼저 구축하고, 그 다음에 이를 앱의 내부 동작과 연결한다.
+
+
+main.css에 추가된 스타일을 사용하기 위해 부트스트랩을 설치한다.
+(참고로 stylus를 먼저 설치하지 않으면 동작하지 않는다) 
+$ meteor add stylus
+$ meteor add ian:accounts-ui-bootstrap-3
+
