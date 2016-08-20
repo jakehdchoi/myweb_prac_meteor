@@ -22,3 +22,5 @@ main.css에 추가된 스타일을 사용하기 위해 부트스트랩을 설치
 $ meteor add stylus
 $ meteor add ian:accounts-ui-bootstrap-3
 
+라우터를 추가한다.
+$ meteor add iron:router
